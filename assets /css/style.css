@@ -1,7 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    float: center;
+    background-color: #ffffff;
+    width: 960px;
+    padding: 90px;
+
+}
+
 h1 {
-    background-color: black;
-    color:white;
-    text-align: center;
-    padding: .5em;
-    margin: 0;
+    background-color: #4aaaa5; 
+    color: white;
+    padding: 30px;
+    justify-content: flex-start;
+
+    
+}
+nav { 
+    padding-left: 13px;
+}
+
+h2 {
+color: #4aaaa5;
+}
+a {
+    color: gray;
+    justify-content: flex-end;
+
 }
